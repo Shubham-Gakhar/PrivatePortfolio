@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Created by Shubham Gakhar, ID- 301274508, June 5, 2023 - Assignment 1 :) -->
+<html lang="en">
+
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <link rel="icon" href="johnnyface.ico">
+    </head>
+
+    <body>
+        <nav>
+            <img style="height: 40px; width: 40px;" src="/images/logo.png"> &nbsp;
+          <a class="Nav" href="/"><b>Home</b></a>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <a target="_blank" class="Nav" href="/projects"><b>Projects</b></a>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <a target="_blank" class="Nav" href="/services"><b>Services</b></a>
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          <a target="_blank" class="Nav" href="/aboutme"><b>About Me</b></a>
+          &nbsp; &nbsp; &nbsp; &nbsp; 
+          <a target="_blank" class="Nav" href="/contact"><b>Contact</b></a> &nbsp;
+          <img style="height: 40px; width: 40px;" src="/images/logo.png">
+        </nav>  
+
+        <form action="mailto:shubham123@gmail.com" method="post">
+
+            <br> <br>
+            
+            <h1 style="color: white;">Get in Touch!!!</h1>
+            
+            <fieldset>
+                <legend><b>About Yourself:</b></legend>
+
+                <p>
+                    <label for="FName">First Name:</label>
+                    <input id="FName" name="FName" size="25" tabindex="3" type="text" required="required">
+                </p>
+
+                <p>
+                    <label for="LName">Last Name:</label>
+                    <input id="LName" name="LName" size="25" tabindex="3" type="text" required="required">
+                </p>
+
+                <p>
+                    <label for="Gender">Gender:</label>
+                    <input id="M" name="Gender" tabindex="11" type="radio" value="Male">
+                    Male 
+                    &nbsp; &nbsp;
+                    <input id="F" name="Gender" tabindex="11" type="radio" value="Female">
+                    Female
+                    &nbsp; &nbsp;
+                    <input id="O" name="Gender" tabindex="11" type="radio" value="Other">
+                    Other
+                </p>
+
+                <p>
+                    <label for="Phone">Phone Number:</label>
+                    <input id="Phone" name="Phone" size="25" tabindex="3" type="text" required="required">
+                </p>
+
+                <p>
+                    <label for="Email">Email:</label>
+                    <input id="Email" name="Email" size="25" tabindex="3" type="text" required="required">
+                </p>
+            </fieldset>            
+
+            <br>
+            <br>
+
+            <fieldset>
+                <legend><b>Description:</b></legend>
+
+                <p>
+                    <label for="Comments">Comments:</label> <br> <br>
+                    <textarea id="Comments" name="Comments" rows="4" cols="50"></textarea>
+                </p>
+
+                <br>
+
+                <input type="submit" value="Submit Form"> 
+                
+                &nbsp; &nbsp;
+
+                <input type="reset" value="Clear Form">
+
+                <br> <br>
+
+            </fieldset>
+        </form>
+        
+        
+    </body>
+
+    <footer style="text-align: center;"><br><strong>&copy;Copyright of SHUBHAM GAKHAR - 301274508 - COMP 229</strong><br><br></footer>
+
+</html>
